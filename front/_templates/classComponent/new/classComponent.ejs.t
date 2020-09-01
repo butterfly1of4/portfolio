@@ -1,21 +1,20 @@
 ---
-to: src/pages/<%= name %>/<%= name %>.js
+to: src/components/<%= name %>/<%= name %>.js
 ---
 
 import React, { Component } from 'react'
 import "./<%= name %>.css"
 
-// React Class Page Component
+// React Class Component
 class <%= name %> extends Component {
     constructor(){
         super()
 
-        this.state ={classlist:'<%= name %>'}
+         this.state ={classlist:'<%= name %>'}
     }
-   
-    render() {
-        
 
+
+    render() {
         return (
             <div className={classList}>
 

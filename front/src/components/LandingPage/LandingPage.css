@@ -1,3 +1,8 @@
 .LandingPage {
-
+    display: flexbox;
+    grid-row: 1;
+    grid-column: auto;
+    width: 100%;
+    max-height: 1000px;
+    background-image: var(--code-background);
 }
