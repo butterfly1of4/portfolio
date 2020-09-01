@@ -16,26 +16,26 @@ class Navbar extends Component {
         <div className="Header ">
           <img src={CircleLogo} className="circleLogo" alt="circleLogo" />
           <ul className="Nav_item_wrapper">
-            <li className="navbar_item">
+            <li className="Nav_item">
               <Link className="Nav_link" to="#">
                 HOME
               </Link>
             </li>
-            <li className="navbar_item">
+            <li className="Nav_item">
               <Link className="Nav_link" to="#">
                 PORTFOLIO
               </Link>
             </li>
-            <li className="navbar_item">
+            <li className="Nav_item">
               <Link className="Nav_link" to="#">
                 LANGUAGES
               </Link>
             </li>
-            <li className="navbar_item">
+            <li className="Nav_item">
               <Link className="NavAbout_link" to="#">
                 LANGUAGES
               </Link>
-            </li>    <li className="navbar_item">
+            </li>    <li className="Nav_item">
               <Link className="Nav_link" to="#">
                 LANGUAGES
               </Link>
