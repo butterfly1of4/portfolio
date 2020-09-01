@@ -2,7 +2,7 @@ import React from "react";
 import "./LandingPage.css";
 import arrow_down from "../../assets/arrow_down.png";
 import background from "../../assets/background.png";
-
+import "../../index.css"
 // Function based React Component
 const LandingPage = (props) => {
   // Default Class to apply to Component
@@ -10,7 +10,7 @@ const LandingPage = (props) => {
 
   return (
     <div className="LandingPage">
-      <img src={background} />
+      
       <h1 className="hi">Hi. I'm Jenn. </h1>
       <h4 className="develper_violinist">
         Developer by day. Violinist by night.

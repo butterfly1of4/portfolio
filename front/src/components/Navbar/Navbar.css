@@ -1,20 +1,28 @@
 .circleLogo {
-  position: absolute;
   width: 60px;
   height: 60px;
-  top: 32px;
+  margin: 2.5% auto 2.5% 9%;
 }
 .Nav_item_wrapper {
-  list-style: none;
+  display: inline-block;
+}
+.Nav_link {
+  
   color: var(--gold);
+  list-style: none;
+  opacity:1;
 }
 .Nav_item {
-    margin-right: 50px;
+  opacity: 1;
   display: inline-block;
 }
 .Header {
   display: flex;
   width: 100%;
-  padding: 50px;
-  margin-right: 100px;
+  /* padding: 10px; */
+  box-sizing: border-box;
+  opacity:1;
+  height: 120px;
+  margin-top: 0;
+  /* background-color: blue; */
 }

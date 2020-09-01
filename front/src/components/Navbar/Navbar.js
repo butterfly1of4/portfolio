@@ -12,7 +12,8 @@ class Navbar extends Component {
   }
   render() {
     return (
-      <nav className="NavBar">
+    
+      <nav>
         <div className="Header ">
           <img src={CircleLogo} className="circleLogo" alt="circleLogo" />
           <ul className="Nav_item_wrapper">
@@ -33,11 +34,11 @@ class Navbar extends Component {
             </li>
             <li className="Nav_item">
               <Link className="NavAbout_link" to="#">
-                LANGUAGES
+                ABOUT
               </Link>
             </li>    <li className="Nav_item">
               <Link className="Nav_link" to="#">
-                LANGUAGES
+                CONTACT
               </Link>
             </li>
           </ul>
