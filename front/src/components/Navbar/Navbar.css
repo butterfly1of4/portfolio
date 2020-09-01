@@ -1,4 +1,30 @@
+.Nav_item_wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style: none;
+}
+
 .Header {
-    display: flex;
-    width: 100vw;
+  display: flex;
+  width: 100vw;
+}
+
+.navbar_item {
+  font-family: "Open Sans", serif;
+  font-size: 16px;
+  color: var(--gold);
+  position: absolute;
+}
+.circleLogo {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 150px;
+  top: 32px;
+}
+
+.Navbar {
+  position: sticky;
+  top: 0;
 }
