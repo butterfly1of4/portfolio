@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import "./Navbar.css";
 import CircleLogo from "../../assets/CircleLogo.png";
 import { Link } from "react-router-dom";
-
+import 'react-sticky-header/styles.css';
+// import { StickyContainer, Sticky } from 'react-sticky';
 // React Class Component
 class Navbar extends Component {
   constructor() {
@@ -12,10 +13,11 @@ class Navbar extends Component {
   }
   render() {
     return (
-    
-      <nav>
+    // <StickyContainer>
+      <nav className="NavBar">
         <div className="Header ">
           <img src={CircleLogo} className="circleLogo" alt="circleLogo" />
+          <div className="Header_root">
           <ul className="Nav_item_wrapper">
             <li className="Nav_item">
               <Link className="Nav_link" to="#">
@@ -33,7 +35,7 @@ class Navbar extends Component {
               </Link>
             </li>
             <li className="Nav_item">
-              <Link className="NavAbout_link" to="#">
+              <Link className="Nav_link" to="#">
                 ABOUT
               </Link>
             </li>    <li className="Nav_item">
@@ -43,7 +45,9 @@ class Navbar extends Component {
             </li>
           </ul>
         </div>
+        </div>
       </nav>
+      // </StickyContainer>
     );
   }
 }

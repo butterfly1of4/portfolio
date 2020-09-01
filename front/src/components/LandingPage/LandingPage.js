@@ -10,12 +10,12 @@ const LandingPage = (props) => {
 
   return (
     <div className="LandingPage">
-      
+      <div className='hi_container'>
       <h1 className="hi">Hi. I'm Jenn. </h1>
-      <h4 className="develper_violinist">
+      <h4 className="developer_violinist">
         Developer by day. Violinist by night.
       </h4>
-      <hr className="landing_hr" />
+      <br className="landing_br" />
       <p className="about_blurb">
         I’m a Full stack Developer, web developer + recent grad of General
         Assembly in Washington. DC. ...Looking for full time or contract
@@ -23,6 +23,7 @@ const LandingPage = (props) => {
         presence or an employwer looking to hire, contact me here. rich
         interactive web apps.{" "}
       </p>
+      </div>
     </div>
   );
 };

@@ -4,8 +4,8 @@
   margin: 2.5% auto 2.5% 7%;
 }
 .Nav_item_wrapper {
-  display: inline-block;
-  background-opacity: 20%;
+white-space: nowrap;
+  
   margin: 3.7% 4.3% 3.7% auto;
 }
 .Nav_link {
@@ -20,12 +20,9 @@
 .Header {
   display: flex;
   width: 100%;
-  z-index: -1;
-  overflow: hidden;
-  /* padding: 10px; */
   box-sizing: border-box;
   background-color: rgba(0,0,0,.2);
   height: 120px;
   margin-top: 0;
-  /* background-color: blue; */
 }
+

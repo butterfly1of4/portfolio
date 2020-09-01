@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      {/* <Route path="/" component={LandingPage} exact={true} /> */}
+      <Route path="/" component={LandingPage} exact={true} />
     </div>
   )
 }
