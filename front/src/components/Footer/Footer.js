@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import "./Contact.css"
+import "./Footer.css"
 
 // React Class Component
-class Contact extends Component {
+class Footer extends Component {
     constructor(){
         super()
 
-         this.state ={classlist:'Contact'}
+         this.state ={classlist:'Footer'}
     }
 
 
@@ -19,5 +19,5 @@ class Contact extends Component {
     }
 }
 
-export default Contact
+export default Footer
 
