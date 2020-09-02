@@ -15,14 +15,29 @@ class Portfolio extends Component {
                     <div className="war">
                         <div className="thumbnail_1">
                         </div>
+                        <p>
+                            <Router>
+                                <Link className="github_war_link" to ="">GAME OF WAR</Link>
+                            </Router>
+                        </p>
                     </div>
                     <div className="nasa">
                         <div className="thumbnail_2">
                         </div>
+                        <p>
+                            <Router>
+                                <Link className="nasa_pages_link" to ="">NASA PLANETS PAGE</Link>
+                            </Router>
+                        </p>
                     </div>    
                     <div className="Nterflix">
                         <div className="thumbnail_3">
                         </div>
+                        <p>
+                            <Router>
+                                <Link className="nterflix_deployed_ink" to ="">NTERFLIX</Link>
+                            </Router>
+                        </p>
                     </div>        
                 </div>
             </div>
