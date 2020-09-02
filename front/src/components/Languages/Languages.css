@@ -1,3 +1,17 @@
+.languages_title {
+    font-size: 60px;
+}
+
+.languages_list {
+    list-style: none;
+    height: 100px;
+}
+
+.slashes {
+    list-style: none;
+    color: var(--gold)
+}
+
 .Languages {
     border: 1px solid blue;
     color: white;
