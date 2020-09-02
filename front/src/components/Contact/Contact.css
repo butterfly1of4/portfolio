@@ -1,5 +1,25 @@
+.Contact_button {
+    background-color: var(--gold);
+    height: 42px;
+    width: 220px;
+    color: black;
+    font-size: 16px;
+    font-family: 'Open Sans', serif;
+    font-weight: bold;
+}
+
+.Contact_title {
+    font-size: 60px;
+}
+
+.yellow_box{
+    width: 79%;
+    height: 236px;
+    border: 4px solid #B2AB11;
+}
 .Contact {
     grid-row: 5;
     box-sizing:border-box;
     border: 1px solid green;
+    color: white;
 }

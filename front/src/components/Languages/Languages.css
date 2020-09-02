@@ -1,16 +1,16 @@
-.languages_title {
+.Languages_title {
     font-size: 60px;
 }
 
-.languages_list {
+.Languages_list {
     list-style: none;
     height: 100px;
 }
-.languages_wrapper {
+.Languages_wrapper {
 
     margin: 3.7% 4.3% 3.7%
 }
-.languages_item {
+.Languages_item {
     display: inline-block;
 }
 .slashes {
