@@ -9,8 +9,7 @@ class Portfolio extends Component {
     return (
       <div className="Portfolio">
         <h1 className="portfolio_title">Portfolio.</h1>
-        <div className="project container">
-          <div className="project_thumbails">
+          <div className="project_thumbnails">
             <div className="war">
               <div className="thumbnail_1"></div>
               <p>
@@ -43,7 +42,6 @@ class Portfolio extends Component {
             </div>
           </div>
         </div>
-      </div>
     );
   }
 }

@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar/Navbar"
 import './App.css';
 import LandingPage from './components/LandingPage/LandingPage';
 import Portfolio from './components/Portfolio/Portfolio';
-
+import Languages from './components/Languages/Languages'
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
       <Navbar />
       <Route path="/" component={LandingPage} exact={true} />
       <Route path="/" component={Portfolio} exact={true} />
+      <Route path="/" component={Languages} exact={true} />
 
     </div>
   )
