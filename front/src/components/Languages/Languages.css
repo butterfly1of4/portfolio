@@ -6,13 +6,25 @@
     list-style: none;
     height: 100px;
 }
+.languages_wrapper {
 
+    margin: 3.7% 4.3% 3.7%
+}
+.languages_item {
+    display: inline-block;
+}
 .slashes {
     list-style: none;
-    color: var(--gold)
+    color: var(--gold);
+    display: inline-block;
 }
+.outer_wrapper {
+    box-sizing: border-box;
 
+}
 .Languages {
     border: 1px solid blue;
     color: white;
+    box-sizing: border-box;
+    grid-row: 3;
 }

@@ -5,8 +5,9 @@ import "./Languages.css";
 const Languages = (props) => {
   return (
     <div className="Languages">
-      <h1 className="languages_title">Languages</h1>
+      <h1 className="languages_title">Languages.</h1>
       <p className="languages_wrapper">
+        <div className="outer_wrapper">
         <ul className="languages_list">
           <li className="languages_item">Django</li>
           <div className="slashes">//</div>
@@ -28,9 +29,12 @@ const Languages = (props) => {
           <div className="slashes">//</div>
           <li className="languages_item">Front End</li> <div className="slashes">//</div>
           <li className="languages_item">CSS</li>
-          <li className="languages_item">HTML</li><div className="slashes">//</div>
+          <div className="slashes">//</div>
+          <li className="languages_item">HTML</li>
+          <div className="slashes">//</div>
           <li className="languages_item">Javascript</li>
         </ul>
+        </div>
       </p>
     </div>
   );
