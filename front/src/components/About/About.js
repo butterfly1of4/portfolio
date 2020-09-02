@@ -1,5 +1,7 @@
 import React from 'react';
 import "./About.css";
+import "../../index.css";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 // Function based React Component
 const About = (props) => {

@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import "./Contact.css"
+import "../../index.css";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 // React Class Component
 class Contact extends Component {

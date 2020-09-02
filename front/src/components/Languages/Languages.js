@@ -1,5 +1,7 @@
 import React from "react";
 import "./Languages.css";
+import "../../index.css";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 // Function based React Component
 const Languages = (props) => {
