@@ -1,3 +1,14 @@
-.Portfolio {
 
+
+.project_thumbnails {
+    display: inline-block;
+}
+
+.Portfolio {
+    display: flex;
+    grid-row: 2;
+    grid-column: auto;
+    background-color: black;
+    height: 600px;
+    color: white;
 }
