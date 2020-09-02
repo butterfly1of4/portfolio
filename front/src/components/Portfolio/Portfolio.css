@@ -1,8 +1,28 @@
+.portfolio_title {
+    font-size: 60px;
+}
 
-
+.thumbnail_1 {
+    height:233px;
+    /* height: 2%; */
+    width: 364px;
+    /* width: 4%; */
+}
+.thumbnail_2 {
+    height:233px;
+    /* height: 2%; */
+    width: 364px;
+    /* width: 4%; */
+}
+.thumbnail_3 {
+    height:233px;
+    /* height: 2%; */
+    width: 364px;
+    /* width: 4%; */
+}
 .project_thumbnails {
-    display: inline-block;
-    
+    display:flex;
+    font-size: 24px;
 }
 
 .Portfolio {
