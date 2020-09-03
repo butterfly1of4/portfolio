@@ -26,7 +26,7 @@ class Navbar extends Component {
                   </Link>
                 </li>
                 <li className="Nav_item">
-                  <Link className="Nav_link" to="#">
+                  <Link className="Nav_link" to="">
                     PORTFOLIO
                   </Link>
                 </li>

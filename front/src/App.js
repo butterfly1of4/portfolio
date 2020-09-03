@@ -14,7 +14,7 @@ function App() {
     <div>
       <Navbar />
       <Route path="/" component={LandingPage} exact={true} />
-      <Route path="/Portfolio" component={Portfolio} exact={true} />
+      <Route path="/" component={Portfolio} exact={true} />
       <Route path="/" component={Languages} exact={true} />
       <Route path="/" component={About} exact={true} />
       <Route path="/" component={Contact} exact={true} />
