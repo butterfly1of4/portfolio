@@ -21,9 +21,20 @@ class Footer extends Component {
         return (
             <div className="Footer">
                 <div className="Footer_icons">
-                    <img src={Github} className="Github" alt="Github"/>
-                    <img src={Email} className="Footer_Email" alt="Email"/>
-                    <img src={LinkedIN} className="LinkedIN" alt="LinkedIN"/>
+               <a href="https://github.com/butterfly1of4">
+                   {" "}
+                <div className="Github">
+                <img src={Github}  alt="Github"/>
+                </div></a>
+                <a href="">
+                    <div className="Footer_Email">
+                    <img src={Email} alt="Email"/>
+                    </div>
+                    </a>
+                <a href="https://www.linkedin.com/in/jennifer-houck/">
+                    <div className="LinkedIN" >
+                    <img src={LinkedIN} alt="LinkedIN"/>
+                    </div></a>
                 </div>
                 <div className="Copywrite">Built by Jenn Houck <div className="Divider">|</div> © 2020</div>
                 <div className="JHLogo">

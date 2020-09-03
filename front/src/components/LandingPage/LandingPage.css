@@ -1,23 +1,31 @@
-.hi_container {
+.Hi_container {
+
   background-color: rgba(0, 0, 0, 0);
 }
 
-.hi {
+.Hi {
+  display: flex;
+  margin: 6% 55% auto 10%;
   background-color: rgba(0, 0, 0, 0);
   font-size: 80px;
 }
 
-.developer_violinist {
+.Period {
+  background-color: rgba(0, 0, 0, 0);
+  color: var(--gold)
+}
+.Developer_violinist {
+  display: flex;
   background-color: rgba(0, 0, 0, 0);
 }
-.landing_br {
+.Landing_br {
   background-color: rgba(0,0,0,0);
     color: var(--gold);
     width: 75px;
     border: 1px solid;
 }
 
-.about_blurb {
+.About_blurb {
   background-color: rgba(0,0,0,0);
 }
 .arrow_down {
@@ -28,14 +36,16 @@
 }
 .LandingPage {
   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   grid-row: 1;
-  grid-column: auto;
   width: 100%;
   height: 52%;
-  z-index: -1;
   max-height: 70%;
   background-image: url("../../assets/background.png");
   background-size: cover;
-  color: white;
+  color: wHite;
   margin: -200px -12px auto --12px;
 }
+
+
