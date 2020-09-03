@@ -25,6 +25,9 @@ const LandingPage = (props) => {
       </p>
       <img src={arrow_down} className="arrow_down" alt="arrow_down" /> 
       </div>
+      <section>
+        <div className="StickyHeader"></div>
+      </section>
     </div>
   );
 };
