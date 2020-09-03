@@ -13,31 +13,33 @@ class Portfolio extends Component {
             <div className="war">
               <div className="thumbnail_1"></div>
               <p>
-                <Router>
-                  <Link className="github_war_link" to="">
+                {/* <Switch> */}
+                  <Link className="github_war_link" to="https://github.com/butterfly1of4/Game-of-War">
                     GAME OF WAR
                   </Link>
-                </Router>
+                {/* </Switch> */}
               </p>
             </div>
             <div className="nasa">
               <div className="thumbnail_2"></div>
               <p>
-                <Router>
-                  <Link className="nasa_pages_link" to="">
-                    NASA PLANETS PAGE
+                {/* <Switch> */}
+                  <Link className="nasa_pages_link" 
+                 to="https://butterfly1of4.github.io/ui-pattern/" >
+                 NASA PLANETS PAGE
                   </Link>
-                </Router>
+                  {/* to="https://github.com/butterfly1of4/ui-pattern"> */}
+                {/* </Switch> */}
               </p>
             </div>
             <div className="Nterflix">
               <div className="thumbnail_3"></div>
               <p>
-                <Router>
+                {/* <Switch> */}
                   <Link className="nterflix_deployed_ink" to="">
                     NTERFLIX
                   </Link>
-                </Router>
+                {/* </Switch */}
               </p>
             </div>
           </div>

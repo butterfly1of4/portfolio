@@ -19,7 +19,10 @@ class Contact extends Component {
                     <p className="Contact_text">
                     <bold>Want to collaborate? </bold> Looking for a dev with mad skills? <br />I’m always open to discussing new projects or partnerships. 
                     </p>
+                    <div className="Contact_resume_buttons">
+                    <button class="Resume_button">VIEW RESUME</button>
                     <button class="Contact_button">CONTACT ME</button>
+                    </div>
                     </div>
                 </div>
             </div>

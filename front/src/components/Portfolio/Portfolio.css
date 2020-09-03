@@ -1,50 +1,45 @@
-
-
 .thumbnail_1 {
-    max-height:233px;
-    /* height: 2%; */
-    max-width: 364px;
-    /* display: inline-block; */
-    background-color: var(--gold);
-    /* width: 4%; */
+  /* height: 16%; */
+  /* width: 25%; */
+  height: 233px;
+  width: 364px;
+  background-color: var(--gold);
+  
 }
 .thumbnail_2 {
-    max-height:233px;
-    background-color: var(--gold);
-    /* display: inline-block; */
-
-    /* height: 2%; */
-    max-width: 364px;
-    /* width: 4%; */
+    height: 233px;
+    width: 364px;
+  /* height: 16%; */
+  background-color: var(--gold);
+  /* width: 25%; */
 }
 .thumbnail_3 {
-    max-height:233px;
-    background-color: var(--gold);
-    /* display: inline-block; */
-/*  */
-    /* height: 2%; */
-    max-width: 364px;
-    /* width: 4%; */
+    height: 233px;
+    width: 364px;
+  /* height: 16%; */
+  background-color: var(--gold);
+  /* width: 25%; */
 }
 .project_thumbnails {
-    display: inline-flex;
-    font-size: 24px;
-    background-color: red;
-    max-height: 300px;
-    margin-bottom: 10px;
+  display: flex;
+  font-size: 24px;
+  background-color: red;
+  max-height: 300px;
+  margin-bottom: 10px;
 }
 .Portfolio_title {
-    font-size: 60px;
-    width: 100%;
-    height: 175px;
+  font-size: 60px;
+  width: 100%;
+  height: 175px;
 }
+
 .Portfolio {
-    box-sizing: border-box;
-    display:grid;
-    grid-row: 2;
-    grid-column: auto;
-    background-color: black;
-    height: 600px;
-    color: white;
-    border: 2px solid white;
+  box-sizing: border-box;
+  display: flex-grid;
+  grid-row: 2;
+  grid-column: auto;
+  background-color: black;
+  height: 600px;
+  color: white;
+  border: 2px solid white;
 }

@@ -7,6 +7,19 @@
 .Contact_text {
     margin: auto auto 5% 5%;
 }
+.Resume_button {
+    height: 42px;
+    width: 220px;
+    background-color: black;
+    font-size: 16px;
+    font-family: 'Open Sans', serif;
+    font-weight: bold;
+    border-radius: 5px;
+    color: var(--gold);
+    border: 2px solid #B2AB11;
+}
+
+
 .Contact_button {
     background-color: var(--gold);
     height: 42px;

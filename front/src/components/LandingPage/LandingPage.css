@@ -35,7 +35,7 @@
 
 }
 .LandingPage {
-  display: flex;
+  display: flex-grid;
   flex-direction: column;
   justify-content: flex-start;
   grid-row: 1;
