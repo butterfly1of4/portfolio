@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Link } from "react-router-dom";
+import { Route, Link, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar"
 import './App.css';
 import LandingPage from './components/LandingPage/LandingPage';
@@ -14,7 +14,7 @@ function App() {
     <div>
       <Navbar />
       <Route path="/" component={LandingPage} exact={true} />
-      <Route path="/" component={Portfolio} exact={true} />
+      <Route path="/Portfolio" component={Portfolio} exact={true} />
       <Route path="/" component={Languages} exact={true} />
       <Route path="/" component={About} exact={true} />
       <Route path="/" component={Contact} exact={true} />

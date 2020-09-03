@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Portfolio.css";
 import "../../index.css";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Router, Link, Switch } from "react-router-dom";
 
 // React Class Component
 class Portfolio extends Component {
@@ -13,33 +13,33 @@ class Portfolio extends Component {
             <div className="war">
               <div className="thumbnail_1"></div>
               <p>
-                {/* <Switch> */}
+                <Switch>
                   <Link className="github_war_link" to="https://github.com/butterfly1of4/Game-of-War">
                     GAME OF WAR
                   </Link>
-                {/* </Switch> */}
+                </Switch>
               </p>
             </div>
             <div className="nasa">
               <div className="thumbnail_2"></div>
               <p>
-                {/* <Switch> */}
+                <Switch>
                   <Link className="nasa_pages_link" 
                  to="https://butterfly1of4.github.io/ui-pattern/" >
                  NASA PLANETS PAGE
                   </Link>
                   {/* to="https://github.com/butterfly1of4/ui-pattern"> */}
-                {/* </Switch> */}
+                </Switch>
               </p>
             </div>
             <div className="Nterflix">
               <div className="thumbnail_3"></div>
               <p>
-                {/* <Switch> */}
+                <Switch>
                   <Link className="nterflix_deployed_ink" to="">
                     NTERFLIX
                   </Link>
-                {/* </Switch */}
+                </Switch>
               </p>
             </div>
           </div>
