@@ -9,41 +9,58 @@ class Portfolio extends Component {
     return (
       <div className="Portfolio">
         <h1 className="Portfolio_title">Portfolio.</h1>
-          <div className="project_thumbnails">
-            <div className="war">
-              <div className="thumbnail_1"></div>
-              <p>
-                <Switch>
-                  <Link className="github_war_link" to="https://github.com/butterfly1of4/Game-of-War">
-                    GAME OF WAR
-                  </Link>
-                </Switch>
-              </p>
-            </div>
-            <div className="nasa">
-              <div className="thumbnail_2"></div>
-              <p>
-                <Switch>
-                  <Link className="nasa_pages_link" 
-                 to="https://butterfly1of4.github.io/ui-pattern/" >
-                 NASA PLANETS PAGE
-                  </Link>
-                  {/* to="https://github.com/butterfly1of4/ui-pattern"> */}
-                </Switch>
-              </p>
-            </div>
-            <div className="Nterflix">
-              <div className="thumbnail_3"></div>
-              <p>
-                <Switch>
-                  <Link className="nterflix_deployed_ink" to="">
-                    NTERFLIX
-                  </Link>
-                </Switch>
-              </p>
-            </div>
-          </div>
+        <div className="project_wrapper">
+          <ul className="project_thumbnails">
+            <li className="thumbnail_item">
+              <div className="thumbnail_Pic"></div>
+
+              <a
+                className="github_link"
+                href="https://github.com/butterfly1of4/Game-of-War"
+              >
+                GAME OF WAR
+              </a>
+            </li>
+
+            <li className="thumbnail_item">
+              <div className="thumbnail_Pic"></div>
+
+              <a
+                className="deployed_link"
+                href="https://butterfly1of4.github.io/ui-pattern/"
+              >
+                NASA PLANETS PAGE
+              </a>
+              <a
+                className="github_link"
+                href="https://github.com/butterfly1of4/ui-pattern"
+              ></a>
+            </li>
+
+            <li className="thumbnail_item">
+              <div className="thumbnail_Pic"></div>
+              <a
+                className="deployed_ink"
+                href="https://butterfly1of4.github.io/project8-frontend"
+              >
+                NTERFLIX
+              </a>
+              <a
+                className="github_link"
+                href="https://github.com/butterfly1of4/project8-frontend"
+              >
+                FRONT END
+              </a>
+              <a
+                className="github_link"
+                href="https://github.com/butterfly1of4/project8-backend"
+              >
+                BACK END
+              </a>
+            </li>
+          </ul>
         </div>
+      </div>
     );
   }
 }

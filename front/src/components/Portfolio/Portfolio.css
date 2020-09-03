@@ -24,8 +24,10 @@
   display: flex;
   font-size: 24px;
   background-color: red;
+  border-radius: 4px;
   max-height: 300px;
-  margin-bottom: 10px;
+  justify-items:space-evenly;
+  margin-bottom: auto 10% 10px 10%;
 }
 .Portfolio_title {
   font-size: 60px;
