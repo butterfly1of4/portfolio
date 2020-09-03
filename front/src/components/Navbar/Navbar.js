@@ -21,27 +21,27 @@ class Navbar extends Component {
             <div className="Header_root">
               <ul className="Nav_item_wrapper">
                 <li className="Nav_item">
-                  <Link className="Nav_link" to="#">
+                  <Link className="Nav_link" to="/LandingPage">
                     HOME
                   </Link>
                 </li>
                 <li className="Nav_item">
-                  <Link className="Nav_link" to="">
+                  <Link className="Nav_link" to="/Portfolio">
                     PORTFOLIO
                   </Link>
                 </li>
                 <li className="Nav_item">
-                  <Link className="Nav_link" to="#">
+                  <Link className="Nav_link" to="/Languages">
                     LANGUAGES
                   </Link>
                 </li>
                 <li className="Nav_item">
-                  <Link className="Nav_link" to="#">
+                  <Link className="Nav_link" to="/About">
                     ABOUT
                   </Link>
                 </li>{" "}
                 <li className="Nav_item">
-                  <Link className="Nav_link" to="#">
+                  <Link className="Nav_link" to="/Contact">
                     CONTACT
                   </Link>
                 </li>
