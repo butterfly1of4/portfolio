@@ -21,7 +21,9 @@
   background-color: rgba(0,0,0,0);
 }
 .arrow_down {
+  display: flex;
   background-color: rgba(0,0,0,0);
+  margin: auto auto 1% auto;
 
 }
 .LandingPage {
@@ -29,9 +31,9 @@
   grid-row: 1;
   grid-column: auto;
   width: 100%;
-  min-height: 750px;
+  height: 52%;
   z-index: -1;
-  max-height: 1000px;
+  max-height: 70%;
   background-image: url("../../assets/background.png");
   background-size: cover;
   color: white;
