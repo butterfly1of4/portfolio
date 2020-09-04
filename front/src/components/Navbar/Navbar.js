@@ -4,8 +4,9 @@ import CircleLogo from "../../assets/CircleLogo.png";
 import { Link } from "react-router-dom";
 import LandingPage from "../LandingPage/LandingPage"
 import "react-sticky-header/styles.css";
-// import { StickyContainer, Sticky } from "react-sticky";
 import StickyHeader from 'react-sticky-header'
+import Scrollchor from 'react-scrollchor';
+import About from '../About/About'
 
 class Navbar extends Component {
   constructor() {
@@ -13,6 +14,7 @@ class Navbar extends Component {
   }
   render() {
     return (
+      // <div className="Page">
       <StickyHeader
         header = {
         <nav className="NavBar">
@@ -21,27 +23,34 @@ class Navbar extends Component {
             <div className="Header_root">
               <ul className="Nav_item_wrapper">
                 <li className="Nav_item">
-                  <Link className="Nav_link" to="/LandingPage">
+                    {/* <Scrollchor to="/" className="Nav_link">HOME</Scrollchor> */}
+                  <Link className="Nav_link" to="/"> 
                     HOME
                   </Link>
                 </li>
                 <li className="Nav_item">
-                  <Link className="Nav_link" to="/Portfolio">
+                    {/* <Scrollchor to="/Portfolio" className="Nav_link">PORTFOLIO</Scrollchor> */}
+                  <Link className="Nav_link" to="/Portfolio/"> 
                     PORTFOLIO
-                  </Link>
+                   </Link>
                 </li>
                 <li className="Nav_item">
-                  <Link className="Nav_link" to="/Languages">
+                {/* <Scrollchor to="/Languages" className="Nav_link">LANGUAGES</Scrollchor> */}
+
+                  <Link className="Nav_link" to="/Languages"> 
                     LANGUAGES
                   </Link>
                 </li>
                 <li className="Nav_item">
-                  <Link className="Nav_link" to="/About">
+                  {/* <Scrollchor to="/About" className="Nav_link">ABOUT</Scrollchor> */}
+
+                  <Link className="Nav_link" to="/About"> 
                     ABOUT
                   </Link>
                 </li>{" "}
                 <li className="Nav_item">
-                  <Link className="Nav_link" to="/Contact">
+                  {/* <Scrollchor to="/Contact" className="Nav_link">CONTACT</Scrollchor> */}
+                  <Link className="Nav_link" to="/Contact"> 
                     CONTACT
                   </Link>
                 </li>
@@ -50,6 +59,7 @@ class Navbar extends Component {
           </div>
         </nav>
         } />
+        // </div>
     );
   }
 }

@@ -1,3 +1,22 @@
+Install React Scrollschor
+npm install react-scrollchor --save
+
+EXAMPLE
+https://www.npmjs.com/package/react-scrollchor
+
+Install StickyHeader
+(react-sticky-header)
+npm install react-sticky-header
+
+
+EXAMPLE
+https://www.npmjs.com/package/react-sticky-header
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

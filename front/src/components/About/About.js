@@ -8,7 +8,7 @@ const About = (props) => {
 
 
   return(
-    <div className="About">
+    <div className="About" id="About">
      <h1 className="About_title">About.</h1> 
      <div className="About_wrapper">
      <div className="About_image"></div>
