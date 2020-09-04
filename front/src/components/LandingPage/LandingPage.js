@@ -11,7 +11,8 @@ const LandingPage = (props) => {
   return (
     <div className="LandingPage">
       <div className='Hi_container'>
-      <h1 className="Hi">Hi<div className="Period">.</div> I'm Jenn<div className="Period">.</div> </h1>
+        <span>
+      <h1 className="Hi">Hi<div className="Period">.</div> I'm Jenn<div className="Period">.</div> </h1></span>
       <h4 className="Developer_violinist">
         Developer by day. Violinist by night.
       </h4>
@@ -19,17 +20,20 @@ const LandingPage = (props) => {
       <p className="About_blurb">
         I’m a Full stack Developer, web developer + recent grad of General
         Assembly in Washington. DC. ...Looking for full time or contract
-        opportuines in the DMV or Remote for If your a business seeking a web
+        opportuines in the DMV or Remote for<br /> If your a business seeking a web
         presence or an employwer looking to hire, contact me here. rich
         interactive web apps.{" "}
       </p>
       <img src={arrow_down} className="arrow_down" alt="arrow_down" /> 
       </div>
-      <section>
-        <div className="StickyHeader"></div>
-      </section>
+  
     </div>
   );
 };
 
 export default LandingPage;
+
+
+    // {/* <section>
+    //     <div className="StickyHeader"></div>
+    //   </section> */}

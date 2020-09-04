@@ -1,6 +1,8 @@
 
 .Contact_title {
     font-size: 60px;
+    display: flex;
+    font-family: 'Arvo';
     /* margin-bottom: 16px; */
 }
 
@@ -36,7 +38,10 @@
     display: flex;
     align-content: center;
 }
-
+a {
+    color: var(--gold);
+    font-style: none;
+}
 .yellow_box{
     width: 79%;
     height: 236px;

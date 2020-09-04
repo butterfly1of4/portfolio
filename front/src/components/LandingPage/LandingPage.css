@@ -4,18 +4,23 @@
 }
 
 .Hi {
+  font-family: 'Arvo';
   display: flex;
-  margin: 6% 55% auto 10%;
+  margin: 20% auto auto auto;
   background-color: rgba(0, 0, 0, 0);
   font-size: 80px;
+  text-align: left;
 }
 
 .Period {
   background-color: rgba(0, 0, 0, 0);
-  color: var(--gold)
+  color: var(--gold);
+  
 }
 .Developer_violinist {
   display: flex;
+  font-size: 32px;
+  font-family: 'Open Sans';
   background-color: rgba(0, 0, 0, 0);
 }
 .Landing_br {
@@ -26,7 +31,10 @@
 }
 
 .About_blurb {
+  font-size: 24px;
+  font-family: 'Open Sans';
   background-color: rgba(0,0,0,0);
+  line-height: 32px;;
 }
 .arrow_down {
   display: flex;

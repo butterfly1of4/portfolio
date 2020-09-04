@@ -7,7 +7,9 @@ import { BrowserRouter as Router, Link } from "react-router-dom";
 const Languages = (props) => {
   return (
     <div className="Languages">
-      <h1 className="Languages_title">Languages.</h1>
+      <span>
+      <h1 className="Languages_title">Languages<div className="Period">.</div></h1>
+      </span>
       <p className="Languages_wrapper">
         <div className="outer_wrapper">
         <ul className="Languages_list">

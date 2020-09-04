@@ -1,5 +1,7 @@
 .Languages_title {
     font-size: 60px;
+    display: flex;
+    font-family: 'Arvo';
 }
 
 .Languages_list {
